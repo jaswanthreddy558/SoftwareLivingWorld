@@ -1,22 +1,26 @@
 package defaultmethods;
 
-interface forallmethods{
+interface forallmethods {
     int level();
 
-   default String bikeName(){
-       return "Jaswanth";
-   }
-   static String nameofBiker(){
-       return "hello String";
- }
+    default String bikeName() {
+        return "Jaswanth";
+    }
 
+    static String nameofBiker() {
+        return "hello String";
+    }
 
 
 }
 
 
-
-public class MainClass implements  forallmethods {
+/**
+ * @author Jaswanth
+ * the below function is written for holding for abstract methods
+ *
+ */
+public class MainClass implements forallmethods {
 
 
     @Override
@@ -28,8 +32,6 @@ public class MainClass implements  forallmethods {
     public String bikeName() {
         return null;
     }
-
-
 
 
     public static void main(String[] args) {
