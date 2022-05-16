@@ -21,8 +21,9 @@ public class StreamListSorting {
         List<StudentInformation> ascendingOrder = studentInformationList.stream().sorted(Comparator.comparingLong(StudentInformation::getSalary)).collect(Collectors.toList());
         System.out.println(minus);
         System.out.println(ascendingOrder);
-
+        // Adding the decending order below :
     }
+
 
     public static List<StudentInformation> studentInformationList() {
         List<StudentInformation> studentInformationList = new ArrayList<>();
