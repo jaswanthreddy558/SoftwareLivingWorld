@@ -17,6 +17,7 @@ public class StreamAllConcept {
         Stream<String> stringStream1 = strings.stream();
         List<String> stringList1=  stringStream1.filter(s -> s.contains("Teacher")).collect(Collectors.toList());
         System.out.println(stringList1);
+        System.out.println(stringList);
 
 
 
