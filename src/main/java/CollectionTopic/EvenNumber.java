@@ -14,11 +14,11 @@ public class EvenNumber {
         List<Integer> list1 = list.stream().filter(integer -> integer % 2 == 0).collect(Collectors.toList());
         System.out.println(list1);
 
-        list1.stream().filter(yu->yu%2==0).collect(Collectors.toList());
+        list1.stream().filter(yu -> yu % 2 == 0).collect(Collectors.toList());
 
     }
 
-    public void m1(){
+    public void m1() {
         System.out.println("Void method");
     }
 }
