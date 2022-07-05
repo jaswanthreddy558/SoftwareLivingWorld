@@ -8,7 +8,7 @@ class ConsumerInterfaceWithTrdationalMethod implements Consumer<String> {
 
     @Override
     public void accept(String name) {
-        System.out.println("Hello What is u r name");
+        System.out.println("Hello My Name is JaswanthReddy");
 
     }
 }
