@@ -27,7 +27,7 @@ public class Employee {
 
 
 
-        bossObject.apply("Employee Age");
+        bossObject.apply("Employee Age of year");
 
         Function<String, Integer> usingLamdaObject = (String name) -> name.length();
         Function<String, String> usingLamdaObject2 = (String name) -> name.toLowerCase();
