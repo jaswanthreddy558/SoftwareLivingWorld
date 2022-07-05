@@ -6,6 +6,25 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * @author Jaswanth
+ * The Steam Api of consists of two operations
+ * 1.Terminal
+ * 2.Intermediate Operations
+ * 3.Terminal operations are
+ * 4.AllMatch
+ * 5.NoneMatch
+ * 6.NoMatch
+ * 7.findany
+ * 8.findfirst
+ * 9.count
+ * 10.min
+ * 11.max
+ * 12.toarray
+ * 13.foreach
+ */
+
+
 public class StreamAllConcept {
     public static void main(String[] args) {
         List<String> stringList = Arrays.asList("Java", "Python", ".net", "Salesforce");
